@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+#white-header{
+    background-color: var(--white-header-footer);
+}
+
+#dark-header{
+    background-color:  var(--dark-header-footer-banner);
+}
+
+header img{
+    height: 35px;
+}
+
+header button{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid var(--border-button);
+}
+
+header button img{
+    margin: 5px 5px 0;
+    height: 25px;
+}
+
+#dark-header button{
+    border: 2px solid var(--white-header-footer);
+}
